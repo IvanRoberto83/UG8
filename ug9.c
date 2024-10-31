@@ -7,7 +7,7 @@ enum gender{
     Perempuan
 };
 
-typedef struct IvanRoberto{
+typedef struct Ivan_Roberto{
     int nim;
     char nama[50];
     char kampus[50];
@@ -17,7 +17,7 @@ typedef struct IvanRoberto{
 }InfoMahasiswa;
 
 int main(){
-    struct IvanRoberto *InfoMahasiswa = malloc(sizeof(InfoMahasiswa)*100);
+    struct Ivan_Roberto *InfoMahasiswa = malloc(sizeof(InfoMahasiswa)*100);
     //isi dengan data kalian.
     InfoMahasiswa-> nim = 71230986;
     strcpy(InfoMahasiswa -> nama, "Ivan Roberto Halim");
